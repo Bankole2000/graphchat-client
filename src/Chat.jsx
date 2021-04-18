@@ -6,7 +6,7 @@ import { Container, Row, Col, FormInput, Button } from 'shards-react';
 
 const wsLink = new WebSocketLink({
   // uri: 'ws://localhost:4000/',
-  uri: 'ws://quiet-plains-82573.herokuapp.com/',
+  uri: 'wss://quiet-plains-82573.herokuapp.com/',
   options: {
     reconnect: true
   }
